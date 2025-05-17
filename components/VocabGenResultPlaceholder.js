@@ -9,7 +9,7 @@ export default function VocabGenResultPlaceholder() {
         )
     })
     return (
-        <div className="bg-white shadow-sm p-4 rounded-xl my-2">
+        <div className="bg-white shadow-sm p-4 rounded-xl my-2 shadow-lg">
             <h3 className="text-lg">
                 <span className="p-2 bg-slate-200 rounded-lg inline-block w-[100px] h-[30px] animate-pulse mr-2"></span>
                 <span className="p-2 bg-slate-200 rounded-lg inline-block w-[60px] h-[30px] animate-pulse"></span>

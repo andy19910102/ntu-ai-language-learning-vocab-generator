@@ -11,9 +11,10 @@ export default function VocabGenResultCard({ result }) {
         )
     })
     return (
-        <div className="bg-white shadow-sm p-4 rounded-xl my-3">
+        <div className="bg-white shadow-sm p-4 rounded-xl my-3 shadow-lg">
             <h3 className="text-lg">
-                {result.title} <span className="py-2 px-4 bg-slate-200 font-semibold rounded-lg inline-block ml-2">{result.language}</span>
+                {result.title}
+                <span className="py-2 px-4 bg-slate-200 font-semibold rounded-lg inline-block ml-2">{result.language}</span>
             </h3>
             <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mt-3">
                 {wordItems}
